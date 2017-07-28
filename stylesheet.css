@@ -1,3 +1,203 @@
-h1 {
-    color: #07b496;
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからcssを書いていきましょう */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header{
+  line-height:25px;
+  width:100%;
+  background-color:rgba(34, 49, 52, 0.9);
+  position:fixed;
+  z-index: 10;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-left p{
+  color:white;
+  font-size:40px;
+  padding-top:20px;
+}
+
+
+.header-right{
+  float:right;
+}
+
+.header-right p{
+  color:white;
+  
+}
+
+.top-wrapper {
+  padding: 180px 0 420px 0;
+  background-image:url("images/image1.jpeg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 80px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: rgb(95, 93, 96);
+}
+
+.left img{
+  float:left;
+  padding: 180px 0 420px 0;
+
+}
+
+
+
+.right img{
+  float:right;
+  padding: 180px 0 420px 0;
+}
+
+.heading h2{
+  font-weight: normal;
+}
+
+.heading h3{
+  font-weight: normal;
+}
+
+
+.shop-wrapper{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 600px;
+  text-align: center;
+  background-color: #FBF9FA;
+}
+
+.shop-left{
+  float: left;
+}
+
+.shop-right{
+  float:right;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+.service-right{
+  float:right;
+}
+
+.service-left{
+  float:left;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.service-wrapper{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 600px;
+  text-align: center;
+  background-color: #E7E8EB;
+
+}
+
+.member-wrapper{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 360px;
+  text-align: center;
+  background-color: #DDE5EF;  
+}
+
+.member{
+  float:left;
+  width:25%;
+}
+
+.member-image{
+  heigth:200px;
+  width:200px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+
+.news-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 240px;
+    text-align: center;
+    background-color: #FFFFFF;  
+
+}
+
+.company-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 480px;
+    text-align: center;
+    background-color: #BDB8AD;  
+}
+
+.about{
+  float:right;
+  line-height: 65px;
+}
+
+.access{
+  text-align:left;
+}
+
+.ggmap{
+  float:left;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 24px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
